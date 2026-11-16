@@ -1,0 +1,2461 @@
+{
+  "physics": [
+    {
+      "id": 1,
+      "name": "Rotational Motion",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "single",
+          "q": "A uniform solid disc of mass M and radius R rolls without slipping on a horizontal surface with its centre moving at speed v. Its total kinetic energy is:",
+          "options": [
+            "½Mv^2",
+            "¾Mv^2",
+            "Mv^2",
+            "⅝Mv^2"
+          ],
+          "ans": "B",
+          "exp": "KE = ½Mv^2 + ½Iω^2 , with I = ½MR^2 and ω = v/R. So KE = ½Mv^2 + ¼Mv^2 = ¾Mv^2 .",
+          "subject": "physics",
+          "chapterId": 1,
+          "chapterName": "Rotational Motion",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "single",
+          "q": "A solid sphere rolls without slipping down a rough incline of angle θ. The acceleration of its centre of mass is:",
+          "options": [
+            "g sinθ",
+            "(2/3) g sinθ",
+            "(5/7) g sinθ",
+            "(1/2) g sinθ"
+          ],
+          "ans": "C",
+          "exp": "a = g sinθ / (1 + I/MR^2 ) = g sinθ / (1 + 2/5) = (5/7) g sinθ.",
+          "subject": "physics",
+          "chapterId": 1,
+          "chapterName": "Rotational Motion",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "A particle of mass 2 kg moves with constant velocity 3 m/s in the +x direction along the line y = 4 m. The magnitude of its angular momentum about the origin (in kg m^2 /s) is ______.",
+          "numericAnswer": 24,
+          "answerDisplay": "24",
+          "tolerance": 0.5,
+          "exp": "L = mvd, where d = 4 m is the perpendicular distance of the line of motion from the origin. L = 2 × 3 × 4 = 24 kg m^2 /s (constant, since no torque acts about O).",
+          "subject": "physics",
+          "chapterId": 1,
+          "chapterName": "Rotational Motion",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "single",
+          "q": "A ring and a solid disc of the same mass and radius are released from rest from the same height on an incline and roll without slipping. The ratio of their speeds at the bottom, v ring /v disc , is:",
+          "options": [
+            "1",
+            "√3/2",
+            "2/√3",
+            "3/4"
+          ],
+          "ans": "B",
+          "exp": "v^2 = 2gh/(1 + k 2 /R^2 ). Ring (k 2 = R^2 ): v^2 = gh. Disc (k 2 = R^2 /2): v^2 = 4gh/3. Ratio = √(3/4) = √3/2.",
+          "subject": "physics",
+          "chapterId": 1,
+          "chapterName": "Rotational Motion",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "single",
+          "q": "A uniform rod of mass M and length L is hinged at one end and released from the horizontal position. When the rod becomes vertical, the force exerted by the hinge on the rod is:",
+          "options": [
+            "Mg",
+            "3Mg/2",
+            "5Mg/2",
+            "3Mg"
+          ],
+          "ans": "C",
+          "exp": "Energy: MgL/2 = ½(ML^2 /3)ω^2 , so ω^2 = 3g/L. In the vertical position gravity exerts no torque, so tangential acceleration is zero. Centripetal: N − Mg = Mω^2 (L/2) = 3Mg/2, so N = 5Mg/2.",
+          "subject": "physics",
+          "chapterId": 1,
+          "chapterName": "Rotational Motion",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "A uniform solid cylinder of mass 6 kg rests on a rough horizontal surface. A horizontal force F = 18 N is applied at the topmost point of the cylinder, perpendicular to its axis. If the cylinder rolls without slipping, the acceleration of its axis (in m/s 2 ) is ______.",
+          "numericAnswer": 4,
+          "answerDisplay": "4",
+          "tolerance": 0.5,
+          "exp": "Let friction f act forward. Translation: F + f = Ma. Torque about the axis: (F − f)R = ½MR^2 (a/R), so F − f = Ma/2. Adding: 2F = 3Ma/2, so a = 4F/(3M) = 4(18)/(3 × 6) = 4 m/s 2 . (Friction = Ma − F = 6 N, forward.)",
+          "subject": "physics",
+          "chapterId": 1,
+          "chapterName": "Rotational Motion",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "single",
+          "q": "A uniform solid sphere is projected with speed v 0 along a rough horizontal floor with no initial rotation. After it begins to roll without slipping, the fraction of its initial kinetic energy that has been dissipated is:",
+          "options": [
+            "2/7",
+            "1/7",
+            "5/7",
+            "2/5"
+          ],
+          "ans": "A",
+          "exp": "Angular momentum about the contact point is conserved: mv 0 R = mvR + (2/5)mR^2 (v/R), so v = 5v 0 /7. Final KE = ½(7/5)mv^2 = (5/7)(½mv 0 2 ). Fraction lost = 1 − 5/7 = 2/7.",
+          "subject": "physics",
+          "chapterId": 1,
+          "chapterName": "Rotational Motion",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "multi",
+          "q": "A uniform rod of mass m and length L lies at rest on a smooth horizontal table. An impulse J is applied perpendicular to the rod at a point P at distance x from its centre. Which of the following is/are correct?",
+          "options": [
+            "The velocity of the centre of mass is J/m, independent of x.",
+            "The angular velocity is 12Jx/(mL^2 ).",
+            "For x = L/6, the end of the rod farther from P is momentarily at rest.",
+            "The total kinetic energy is (J^2 /2m)(1 + 6x^2 /L^2 )."
+          ],
+          "ans": [
+            "A",
+            "B",
+            "C"
+          ],
+          "exp": "v cm = J/m and ω = Jx/(mL^2 /12) = 12Jx/(mL^2 ), so (A) and (B) hold. Far-end velocity = J/m − ω(L/2) = J/m − 6Jx/(mL) = 0 gives x = L/6, so (C) holds. KE = J^2 /2m + ½(mL^2 /12)ω^2 = (J^2 /2m)(1 + 12x^2 /L^2 ), so (D) is wrong.",
+          "subject": "physics",
+          "chapterId": 1,
+          "chapterName": "Rotational Motion",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "single",
+          "q": "A thin uniform rod of length L stands vertically on a smooth horizontal floor and is slightly disturbed so that it falls. The speed of its centre of mass just before it strikes the floor (rod horizontal) is:",
+          "options": [
+            "√(gL)",
+            "√(3gL)/2",
+            "√(3gL)",
+            "√(gL/3)"
+          ],
+          "ans": "B",
+          "exp": "The floor is smooth, so no horizontal force acts and the centre of mass falls vertically. Just before impact the lower end is at the instantaneous centre of rotation, a distance L/2 from the centre, so ω = v/(L/2). Energy: mgL/2 = ½mv^2 + ½(mL^2 /12)(2v/L) 2 = (2/3)mv^2 . Hence v^2 = 3gL/4 and v = √(3gL)/2.",
+          "subject": "physics",
+          "chapterId": 1,
+          "chapterName": "Rotational Motion",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "single",
+          "q": "A plank of mass M rests on a smooth horizontal floor. A uniform disc of mass m and radius R lies on it, and a horizontal force F is applied at the centre of the disc. The disc rolls without slipping on the plank. The acceleration of the plank is:",
+          "options": [
+            "F/(m + M)",
+            "F/(m + 3M)",
+            "F/(3m + M)",
+            "F/(m + 2M)"
+          ],
+          "ans": "B",
+          "exp": "Let f be the friction between them. Plank: f = Ma 2 . Disc: F − f = ma 1 and fR = ½mR^2 α, so αR = 2f/m. No slipping at the contact: a 1 − αR = a 2 , so a 1 = a 2 (1 + 2M/m). Then F = f + ma 1 = a 2 (M + m + 2M), giving a 2 = F/(m + 3M). Check: M → ∞ gives a 2 → 0; M → 0 gives a 2 = F/m.",
+          "subject": "physics",
+          "chapterId": 1,
+          "chapterName": "Rotational Motion",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Electrostatics",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "single",
+          "q": "Two point charges +q and +4q are separated by a distance d. The electric field is zero at a point on the line joining them at a distance ______ from +q.",
+          "options": [
+            "d/2",
+            "d/3",
+            "d/4",
+            "2d/3"
+          ],
+          "ans": "B",
+          "exp": "Set kq/x^2 = 4kq/(d − x) 2 . Then d − x = 2x, so x = d/3.",
+          "subject": "physics",
+          "chapterId": 2,
+          "chapterName": "Electrostatics",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "single",
+          "q": "A parallel-plate capacitor is charged and then disconnected from the battery. A dielectric slab of constant K is inserted to fill the space between the plates. The stored energy becomes ______ times its initial value.",
+          "options": [
+            "K",
+            "1/K",
+            "K 2",
+            "1"
+          ],
+          "ans": "B",
+          "exp": "The charge Q is constant and C → KC. U = Q 2 /2C becomes U/K.",
+          "subject": "physics",
+          "chapterId": 2,
+          "chapterName": "Electrostatics",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "A conducting spherical shell of radius 0.3 m carries a charge of 2 μC. The potential at its centre (in kV) is ______. (Take 1/4πε 0 = 9 × 10 9 N m^2 /C 2 .)",
+          "numericAnswer": 60,
+          "answerDisplay": "60",
+          "tolerance": 0.5,
+          "exp": "Inside a conducting shell the potential is constant and equal to the surface value: V = kQ/R = (9 × 10 9 )(2 × 10 −6 )/0.3 = 6 × 10 4 V = 60 kV.",
+          "subject": "physics",
+          "chapterId": 2,
+          "chapterName": "Electrostatics",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "single",
+          "q": "A point charge q is placed at one corner of a cube. The electric flux through each face that does not contain that corner is:",
+          "options": [
+            "q/(8ε 0 )",
+            "q/(24ε 0 )",
+            "q/(6ε 0 )",
+            "zero"
+          ],
+          "ans": "B",
+          "exp": "Eight cubes placed around the charge enclose it fully, so the flux through this cube is q/(8ε 0 ). The three faces meeting at the corner get zero flux (field lies in their planes). The other three faces share it equally: q/(24ε 0 ) each.",
+          "subject": "physics",
+          "chapterId": 2,
+          "chapterName": "Electrostatics",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "single",
+          "q": "An electric dipole of moment p is placed in a uniform field E at 60° to the field. The work required to rotate it slowly to 180° is:",
+          "options": [
+            "pE/2",
+            "pE",
+            "3pE/2",
+            "2pE"
+          ],
+          "ans": "C",
+          "exp": "U = −pE cosθ. U(60°) = −pE/2 and U(180°) = +pE. Work = pE − (−pE/2) = 3pE/2.",
+          "subject": "physics",
+          "chapterId": 2,
+          "chapterName": "Electrostatics",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "A 2 μF capacitor charged to 100 V is connected, positive plate to positive plate, across an uncharged 3 μF capacitor. The heat dissipated in the process (in mJ) is ______.",
+          "numericAnswer": 6,
+          "answerDisplay": "6",
+          "tolerance": 0.5,
+          "exp": ". ● MEDIUM Answer: 6 Charge = 200 μC is conserved, so common V = 200/5 = 40 V. Initial energy = ½(2 × 10 −6 )(100) 2 = 10 mJ. Final energy = ½(5 × 10 −6 )(40) 2 = 4 mJ. Heat = 10 − 4 = 6 mJ.",
+          "subject": "physics",
+          "chapterId": 2,
+          "chapterName": "Electrostatics",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "single",
+          "q": "A fixed uniformly charged ring (charge +Q, radius R) has a small particle of mass m and charge −q released on its axis at a small distance x (x ≪ R) from the centre. The time period of the resulting oscillation is:",
+          "options": [
+            "2π√(4πε 0 mR^3 /(Qq))",
+            "2π√(4πε 0 mR^2 /(Qq))",
+            "2π√(mR^3 /(4πε 0 Qq))",
+            "π√(4πε 0 mR^3 /(Qq))"
+          ],
+          "ans": "A",
+          "exp": "On the axis, E = kQx/(R^2 + x^2 ) 3/2 ≈ kQx/R^3 . The restoring force is F = −(kQq/R^3 )x, so ω^2 = Qq/(4πε 0 mR^3 ) and T = 2π/ω = 2π√(4πε 0 mR^3 /(Qq)).",
+          "subject": "physics",
+          "chapterId": 2,
+          "chapterName": "Electrostatics",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "single",
+          "q": "A small conducting sphere of radius R carrying charge +Q is placed at the centre of a thick, isolated, uncharged conducting spherical shell of inner radius 2R and outer radius 3R. The outer surface of the shell is then connected to earth. The ratio (potential of the inner sphere before earthing) : (potential after earthing) is:",
+          "options": [
+            "5/3",
+            "3/2",
+            "2",
+            "6/5"
+          ],
+          "ans": "A",
+          "exp": "Before: induced charges are −Q on the shell's inner surface and +Q on its outer surface, so V = kQ(1/R − 1/2R + 1/3R) = 5kQ/(6R). After earthing, the outer-surface charge becomes zero (its potential must be zero), so V = kQ(1/R − 1/2R) = kQ/(2R). Ratio = (5/6)/(1/2) = 5/3.",
+          "subject": "physics",
+          "chapterId": 2,
+          "chapterName": "Electrostatics",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "single",
+          "q": "A non-conducting sphere of radius R has volume charge density ρ = ρ 0 (1 − r/R) for r ≤ R. Inside the sphere, the electric field is maximum at:",
+          "options": [
+            "r = R/2, with E = 5ρ 0 R/(48ε 0 )",
+            "r = 2R/3, with E = ρ 0 R/(9ε 0 )",
+            "r = R, with E = ρ 0 R/(12ε 0 )",
+            "r = 3R/4, with E = 7ρ 0 R/(64ε 0 )"
+          ],
+          "ans": "B",
+          "exp": "Q enc = 4πρ 0 (r 3 /3 − r 4 /4R), so by Gauss's law E = (ρ 0 /ε 0 )(r/3 − r 2 /4R). Setting dE/dr = 0: 1/3 − r/2R = 0, so r = 2R/3 (which lies inside the sphere). Then E max = (ρ 0 /ε 0 )(2R/9 − R/9) = ρ 0 R/(9ε 0 ).",
+          "subject": "physics",
+          "chapterId": 2,
+          "chapterName": "Electrostatics",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "multi",
+          "q": "A uniformly charged sphere (density ρ > 0, radius R, centre O) contains a spherical cavity of radius R/2 whose centre C is at distance R/2 from O. Which of the following is/are correct?",
+          "options": [
+            "The electric field inside the cavity is uniform.",
+            "Its magnitude in the cavity is ρR/(6ε 0 ).",
+            "Its direction is along the line from O towards C.",
+            "The electric field at O is zero."
+          ],
+          "ans": [
+            "A",
+            "B",
+            "C"
+          ],
+          "exp": "Superpose a full sphere of density +ρ and a sphere of density −ρ filling the cavity. Inside the cavity: E = ρr/(3ε 0 ) − ρ(r − d)/(3ε 0 ) = ρd/(3ε 0 ), where d = OC. This is uniform, with magnitude ρR/(6ε 0 ) and pointing from O to C. O lies on the cavity boundary (OC = R/2), so the field there has this same non-zero value. (D) is wrong.",
+          "subject": "physics",
+          "chapterId": 2,
+          "chapterName": "Electrostatics",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Thermodynamics & Kinetic Theory",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "single",
+          "q": "A monatomic ideal gas is heated at constant pressure. The fraction of the heat supplied that is converted into work is:",
+          "options": [
+            "2/5",
+            "3/5",
+            "2/3",
+            "1/3"
+          ],
+          "ans": "A",
+          "exp": "Q = nC p ΔT = n(5R/2)ΔT and W = nRΔT. So W/Q = 2/5.",
+          "subject": "physics",
+          "chapterId": 3,
+          "chapterName": "Thermodynamics & Kinetic Theory",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "A Carnot engine works between a source at 500 K and a sink at 300 K. If it absorbs 1000 J from the source per cycle, the work done per cycle (in J) is ______.",
+          "numericAnswer": 400,
+          "answerDisplay": "400",
+          "tolerance": 0.5,
+          "exp": "η = 1 − T 2 /T 1 = 1 − 300/500 = 0.4. W = 0.4 × 1000 = 400 J.",
+          "subject": "physics",
+          "chapterId": 3,
+          "chapterName": "Thermodynamics & Kinetic Theory",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "At the same temperature, the ratio of the rms speed of hydrogen (H 2 ) molecules to that of oxygen (O 2 ) molecules is ______.",
+          "numericAnswer": 4,
+          "answerDisplay": "4",
+          "tolerance": 0.5,
+          "exp": "v rms ∝ 1/√M. Ratio = √(32/2) = √16 = 4.",
+          "subject": "physics",
+          "chapterId": 3,
+          "chapterName": "Thermodynamics & Kinetic Theory",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "A monatomic ideal gas is compressed adiabatically and reversibly to 1/8 of its initial volume. If the initial pressure and volume are P 1 and V 1 , the work done on the gas is x P 1 V 1 . The value of x is ______.",
+          "numericAnswer": 4.5,
+          "answerDisplay": "4.5",
+          "tolerance": 0.05,
+          "exp": "γ = 5/3, so P 2 = P 1 (8) 5/3 = 32P 1 . Work on gas = (P 2 V 2 − P 1 V 1 )/(γ − 1) = (32P 1 V 1 /8 − P 1 V 1 )/(2/3) = 3P 1 V 1 × 3/2 = 4.5 P 1 V 1 .",
+          "subject": "physics",
+          "chapterId": 3,
+          "chapterName": "Thermodynamics & Kinetic Theory",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "A gas undergoes the cycle 1 → 2 → 3 → 1 in the P–V plane: 1(V 0 , P 0 ) → 2(V 0 , 3P 0 ) (isochoric) → 3(3V 0 , P 0 ) (straight line) → 1 (isobaric). If P 0 = 1 × 10 5 Pa and V 0 = 1 L, the net work done by the gas per cycle (in J) is ______.",
+          "numericAnswer": 200,
+          "answerDisplay": "200",
+          "tolerance": 0.5,
+          "exp": "The cycle is the triangle with base 2V 0 and height 2P 0 . Area = ½(2V 0 )(2P 0 ) = 2P 0 V 0 . Going up the left side, down the diagonal and back along the bottom is clockwise, so work by the gas is positive: 2 × 10 5 × 10 −3 = 200 J.",
+          "subject": "physics",
+          "chapterId": 3,
+          "chapterName": "Thermodynamics & Kinetic Theory",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "single",
+          "q": "One mole of helium and one mole of rigid diatomic oxygen are mixed. The ratio of specific heats γ of the mixture is:",
+          "options": [
+            "1.67",
+            "1.50",
+            "1.40",
+            "1.53"
+          ],
+          "ans": "B",
+          "exp": "C v,mix = (1 × 3R/2 + 1 × 5R/2)/2 = 2R. C p,mix = 3R. γ = 3/2 = 1.50.",
+          "subject": "physics",
+          "chapterId": 3,
+          "chapterName": "Thermodynamics & Kinetic Theory",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "single",
+          "q": "For one mole of a monatomic ideal gas undergoing the process PV 2 = constant, the molar heat capacity is:",
+          "options": [
+            "R/2",
+            "3R/2",
+            "5R/2",
+            "−R/2"
+          ],
+          "ans": "A",
+          "exp": "For PV x = constant, C = C v + R/(1 − x). With x = 2: C = 3R/2 − R = R/2.",
+          "subject": "physics",
+          "chapterId": 3,
+          "chapterName": "Thermodynamics & Kinetic Theory",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "A thermally insulated vessel contains 1 mol of helium (M = 4 g/mol) and moves with speed 100 m/s. It is suddenly brought to rest. Neglecting the heat capacity of the vessel, the rise in temperature of the gas (in K) is ______. (R = 8.31 J/mol K; give answer to one decimal place.)",
+          "numericAnswer": 1.6,
+          "answerDisplay": "1.6",
+          "tolerance": 0.05,
+          "exp": "All the kinetic energy of the moving gas becomes internal energy: ½Mv^2 = C v ΔT = (3/2)RΔT. ΔT = Mv^2 /(3R) = (4 × 10 −3 )(10 4 )/(3 × 8.31) = 40/24.93 ≈ 1.6 K.",
+          "subject": "physics",
+          "chapterId": 3,
+          "chapterName": "Thermodynamics & Kinetic Theory",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "One mole of a rigid diatomic ideal gas (γ = 1.4) undergoes a cycle: A → B isothermal expansion at T 0 from volume V to 2V; B → C isochoric cooling; C → A adiabatic compression. The efficiency of the cycle (in %, to one decimal place) is ______. (Use ln 2 = 0.693 and 2 0.4 = 1.3195.)",
+          "numericAnswer": 12.7,
+          "answerDisplay": "12.7",
+          "tolerance": 0.05,
+          "exp": "Q AB = RT 0 ln 2 = 0.693RT 0 (absorbed). Along C → A (adiabatic): T C (2V) 0.4 = T 0 V 0.4 , so T C = T 0 /1.3195 = 0.7579T 0 . Heat rejected in B → C: C v (T 0 − T C ) = 2.5R(0.2421T 0 ) = 0.6053RT 0 . η = 1 − 0.6053/0.693 ≈ 0.127, i.e. 12.7%.",
+          "subject": "physics",
+          "chapterId": 3,
+          "chapterName": "Thermodynamics & Kinetic Theory",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "single",
+          "q": "One mole of a monatomic ideal gas undergoes a process T = T 0 + αV (T 0 , α positive constants). At what volume is its molar heat capacity equal to 4R?",
+          "options": [
+            "2T 0 /(3α)",
+            "T 0 /α",
+            "3T 0 /(2α)",
+            "T 0 /(3α)"
+          ],
+          "ans": "A",
+          "exp": "dQ = C v dT + PdV, with P = RT/V and dV = dT/α. So C = 3R/2 + RT/(αV) = 3R/2 + R(T 0 + αV)/(αV) = 5R/2 + RT 0 /(αV). Setting C = 4R: RT 0 /(αV) = 3R/2, so V = 2T 0 /(3α).",
+          "subject": "physics",
+          "chapterId": 3,
+          "chapterName": "Thermodynamics & Kinetic Theory",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Electromagnetic Induction & AC",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "A metal rod of length 0.5 m moves at 4 m/s perpendicular to its length and to a uniform magnetic field of 0.2 T. The induced emf across its ends (in V) is ______.",
+          "numericAnswer": 0.4,
+          "answerDisplay": "0.4",
+          "tolerance": 0.05,
+          "exp": "ε = Blv = 0.2 × 0.5 × 4 = 0.4 V.",
+          "subject": "physics",
+          "chapterId": 4,
+          "chapterName": "Electromagnetic Induction & AC",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "An inductor of self-inductance 2 H carries a steady current of 5 A. The energy stored in it (in J) is ______.",
+          "numericAnswer": 25,
+          "answerDisplay": "25",
+          "tolerance": 0.5,
+          "exp": "U = ½LI 2 = ½ × 2 × 25 = 25 J.",
+          "subject": "physics",
+          "chapterId": 4,
+          "chapterName": "Electromagnetic Induction & AC",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "A coil of 100 turns and area 0.01 m^2 is placed with its plane perpendicular to a magnetic field that rises uniformly from 0 to 0.5 T in 0.1 s. The induced emf (in V) is ______.",
+          "numericAnswer": 5,
+          "answerDisplay": "5",
+          "tolerance": 0.5,
+          "exp": "ε = NΔ(BA)/Δt = 100 × (0.5 × 0.01)/0.1 = 5 V.",
+          "subject": "physics",
+          "chapterId": 4,
+          "chapterName": "Electromagnetic Induction & AC",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "single",
+          "q": "Two parallel horizontal rails of separation l are connected by a resistor R and lie in a uniform vertical field B. A rod of mass m slides on them without friction and is given an initial speed v 0 . The distance it travels before stopping is:",
+          "options": [
+            "mv 0 R/(B 2 l 2 )",
+            "mv 0 R/(Bl)",
+            "mv 0 R^2 /(B 2 l 2 )",
+            "mv 0 /(B 2 l 2 R)"
+          ],
+          "ans": "A",
+          "exp": "m dv/dt = −B 2 l 2 v/R. Writing dv/dt = v dv/dx gives m dv = −(B 2 l 2 /R) dx. Integrating: x = mv 0 R/(B 2 l 2 ).",
+          "subject": "physics",
+          "chapterId": 4,
+          "chapterName": "Electromagnetic Induction & AC",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "An inductor of 1 H and a resistor of 10 Ω are connected in series with a 10 V battery of negligible internal resistance. The time taken for the current to reach half its final value (in s, to 3 decimal places) is ______. (ln 2 = 0.693)",
+          "numericAnswer": 0.069,
+          "answerDisplay": "0.069",
+          "tolerance": 0.0005,
+          "exp": "I = I 0 (1 − e −t/τ ) with τ = L/R = 0.1 s. Half value: e −t/τ = ½, so t = τ ln 2 = 0.0693 s ≈ 0.069 s.",
+          "subject": "physics",
+          "chapterId": 4,
+          "chapterName": "Electromagnetic Induction & AC",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "A conducting rod of length 1 m rotates at 20 rad/s about one end in a uniform magnetic field of 0.5 T perpendicular to the plane of rotation. The potential difference between the midpoint of the rod and its free end (in V) is ______.",
+          "numericAnswer": 3.75,
+          "answerDisplay": "3.75",
+          "tolerance": 0.005,
+          "exp": "The emf between two points at distances r 1 and r 2 from the pivot is ½Bω(r 2 2 − r 1 2 ). Here: ½(0.5)(20)(1 2 − 0.5 2 ) = 5 × 0.75 = 3.75 V.",
+          "subject": "physics",
+          "chapterId": 4,
+          "chapterName": "Electromagnetic Induction & AC",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "A series circuit with R = 30 Ω, X L = 80 Ω and X C = 40 Ω is connected to an AC source of 100 V (rms). The average power dissipated (in W) is ______.",
+          "numericAnswer": 120,
+          "answerDisplay": "120",
+          "tolerance": 0.5,
+          "exp": "Z = √(30 2 + (80 − 40) 2 ) = 50 Ω. I rms = 100/50 = 2 A. P = I 2 R = 4 × 30 = 120 W.",
+          "subject": "physics",
+          "chapterId": 4,
+          "chapterName": "Electromagnetic Induction & AC",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "single",
+          "q": "Two smooth horizontal rails separated by l are joined by a capacitor C and lie in a vertical field B. A rod of mass m placed across them is pulled from rest by a constant force F. The acceleration of the rod is:",
+          "options": [
+            "F/m",
+            "F/(m + CB 2 l 2 )",
+            "F/(m + B 2 l 2 /C)",
+            "F/(m − CB 2 l 2 )"
+          ],
+          "ans": "B",
+          "exp": "The capacitor voltage equals the emf: q = CBlv. Current i = dq/dt = CBla, so the magnetic retarding force is Bil = CB 2 l 2 a. Then F − CB 2 l 2 a = ma, giving a = F/(m + CB 2 l 2 ), a constant.",
+          "subject": "physics",
+          "chapterId": 4,
+          "chapterName": "Electromagnetic Induction & AC",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "A square loop of side 0.1 m, mass 10 g and resistance 0.1 Ω moves at 5 m/s on a smooth horizontal table and passes completely through a region of width 0.3 m containing a uniform vertical field of 1 T. Its speed after it has completely left the field region (in m/s) is ______.",
+          "numericAnswer": 3,
+          "answerDisplay": "3",
+          "tolerance": 0.5,
+          "exp": "While entering, the impulse is ∫Bil dt = Bl × q with q = ΔΦ/R = Bl 2 /R. So Δv = B 2 l 3 /(mR) = (1)(10 −3 )/(0.01 × 0.1) = 1 m/s. The same loss occurs on exit, and there is no emf while the loop is fully inside (the region is wider than the loop). Final speed = 5 − 1 − 1 = 3 m/s.",
+          "subject": "physics",
+          "chapterId": 4,
+          "chapterName": "Electromagnetic Induction & AC",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "A battery of emf 12 V (no internal resistance) is connected through a switch to a 4 Ω resistor R 1 in series with a parallel combination of an inductor L = 2 H and a resistor R^2 = 4 Ω. The switch is closed at t = 0. The time (in s) at which the current through L equals the current through R^2 is ______. (ln 1.5 = 0.405)",
+          "numericAnswer": 0.41,
+          "answerDisplay": "0.41",
+          "tolerance": 0.005,
+          "exp": "Across the inductor terminals, the Thevenin equivalent is V th = 12 × 4/8 = 6 V and R th = 4 ∥ 4 = 2 Ω. So τ = L/R th = 1 s, and i L = (6/2)(1 − e −t ) = 3(1 − e −t ). The inductor voltage is L di/dt = 6e −t , so i R2 = 1.5e −t . Equal currents: 3 − 3e −t = 1.5e −t , so e −t = 2/3 and t = ln 1.5 = 0.405 s ≈ 0.41 s.",
+          "subject": "physics",
+          "chapterId": 4,
+          "chapterName": "Electromagnetic Induction & AC",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Modern Physics",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "Photons of energy 5 eV fall on a metal of work function 2 eV. The stopping potential (in V) is ______.",
+          "numericAnswer": 3,
+          "answerDisplay": "3",
+          "tolerance": 0.5,
+          "exp": "eV 0 = E − φ = 5 − 2 = 3 eV, so V 0 = 3 V.",
+          "subject": "physics",
+          "chapterId": 5,
+          "chapterName": "Modern Physics",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "An electron is accelerated from rest through 150 V. Its de Broglie wavelength (in Å) is ______. (Use λ = 12.27/√V Å, V in volts; answer to one decimal place.)",
+          "numericAnswer": 1,
+          "answerDisplay": "1.0",
+          "tolerance": 0.05,
+          "exp": "λ = 12.27/√150 = 12.27/12.25 ≈ 1.0 Å.",
+          "subject": "physics",
+          "chapterId": 5,
+          "chapterName": "Modern Physics",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "single",
+          "q": "The energy required to remove the electron from a He + ion in its ground state is:",
+          "options": [
+            "13.6 eV",
+            "27.2 eV",
+            "54.4 eV",
+            "108.8 eV"
+          ],
+          "ans": "C",
+          "exp": "E = 13.6 Z 2 /n 2 eV = 13.6 × 4 = 54.4 eV.",
+          "subject": "physics",
+          "chapterId": 5,
+          "chapterName": "Modern Physics",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "single",
+          "q": "Two radioactive samples A and B have half-lives 1 h and 2 h and contain equal numbers of nuclei initially. After 4 h, the ratio of their activities A A /A B is:",
+          "options": [
+            "1/2",
+            "1/4",
+            "1",
+            "2"
+          ],
+          "ans": "A",
+          "exp": "N A = N 0 /16 and N B = N 0 /4. Also λ A /λ B = T B /T A = 2. Activity ratio = 2 × (1/16)/(1/4) = 1/2.",
+          "subject": "physics",
+          "chapterId": 5,
+          "chapterName": "Modern Physics",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The series limit (shortest wavelength) of the Balmer series of hydrogen (in nm, nearest integer) is ______. (Use hc = 1240 eV nm.)",
+          "numericAnswer": 365,
+          "answerDisplay": "365",
+          "tolerance": 0.5,
+          "exp": "The limit corresponds to n = ∞ → 2, with photon energy 13.6/4 = 3.4 eV. λ = 1240/3.4 ≈ 365 nm.",
+          "subject": "physics",
+          "chapterId": 5,
+          "chapterName": "Modern Physics",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The K α line of molybdenum (Z = 42) has wavelength 0.71 Å. Using Moseley's law, the K α wavelength of copper (Z = 29), in Å to two decimals, is ______.",
+          "numericAnswer": 1.52,
+          "answerDisplay": "1.52",
+          "tolerance": 0.005,
+          "exp": "√ν ∝ (Z − 1), so λ ∝ 1/(Z − 1) 2 . λ Cu = 0.71 × (41/28) 2 = 0.71 × 2.144 ≈ 1.52 Å.",
+          "subject": "physics",
+          "chapterId": 5,
+          "chapterName": "Modern Physics",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "single",
+          "q": "Light of frequency ν incident on a metal of threshold frequency ν/2 produces a stopping potential V 0 . If the frequency is tripled, the new stopping potential is:",
+          "options": [
+            "3V 0",
+            "5V 0",
+            "6V 0",
+            "2.5V 0"
+          ],
+          "ans": "B",
+          "exp": "eV 0 = h(ν − ν/2) = hν/2. With 3ν: eV′ = h(3ν − ν/2) = 5hν/2 = 5(eV 0 ). So V′ = 5V 0 .",
+          "subject": "physics",
+          "chapterId": 5,
+          "chapterName": "Modern Physics",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "A hydrogen atom (mass 1.67 × 10 −27 kg) at rest in the n = 2 state makes a transition to n = 1. Its recoil speed (in m/s, to one decimal place) is ______. (1 eV = 1.6 × 10 −19 J, c = 3 × 10 8 m/s.)",
+          "numericAnswer": 3.3,
+          "answerDisplay": "3.3",
+          "tolerance": 0.05,
+          "exp": "Photon energy = 13.6(1 − 1/4) = 10.2 eV, so its momentum is p = E/c. By momentum conservation the atom recoils with v = E/(mc) = (10.2 × 1.6 × 10 −19 )/((1.67 × 10 −27 )(3 × 10 8 )) = 1.632 × 10 −18 /5.01 × 10 −19 ≈ 3.3 m/s.",
+          "subject": "physics",
+          "chapterId": 5,
+          "chapterName": "Modern Physics",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "A radioactive nucleus can decay independently by two modes: α emission with partial half-life 20 min and β emission with partial half-life 30 min. The fraction of the original nuclei that decay by α emission within the first 12 minutes is ______.",
+          "numericAnswer": 0.3,
+          "answerDisplay": "0.30",
+          "tolerance": 0.005,
+          "exp": "λ α = ln2/20 and λ β = ln2/30 per min, so λ = ln2(1/20 + 1/30) = ln2/12. The effective half-life is 12 min, so half of the nuclei decay in 12 min. The share going via α is λ α /λ = 12/20 = 0.6. Fraction = 0.5 × 0.6 = 0.30.",
+          "subject": "physics",
+          "chapterId": 5,
+          "chapterName": "Modern Physics",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "single",
+          "q": "A photon whose wavelength equals the Compton wavelength of the electron (h/mc) is scattered by 180° from a free electron at rest. The kinetic energy acquired by the electron is:",
+          "options": [
+            "mc 2 /3",
+            "2mc 2 /3",
+            "mc 2 /2",
+            "mc 2 CHEMISTRY"
+          ],
+          "ans": "B",
+          "exp": "Incident energy = hc/λ = mc 2 . Compton shift at 180° is Δλ = 2h/mc, so λ′ = 3h/mc and the scattered energy is mc 2 /3. Electron KE = mc 2 − mc 2 /3 = 2mc 2 /3. CHEMISTRY – SOLUTIONS",
+          "subject": "physics",
+          "chapterId": 5,
+          "chapterName": "Modern Physics",
+          "exam": "advanced"
+        }
+      ]
+    }
+  ],
+  "chemistry": [
+    {
+      "id": 1,
+      "name": "Chemical Bonding & Molecular Structure",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "single",
+          "q": "The shape of the XeF 4 molecule is:",
+          "options": [
+            "Tetrahedral",
+            "Square planar",
+            "See-saw",
+            "Square pyramidal"
+          ],
+          "ans": "B",
+          "exp": "Xe has 4 bond pairs and 2 lone pairs (sp 3 d 2 ). The lone pairs sit opposite each other, giving a square planar molecule.",
+          "subject": "chemistry",
+          "chapterId": 1,
+          "chapterName": "Chemical Bonding & Molecular Structure",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "Among O 2 , O 2 + , O 2 − and O 2 2− , the number of paramagnetic species is ______.",
+          "numericAnswer": 3,
+          "answerDisplay": "3",
+          "tolerance": 0.5,
+          "exp": "Unpaired electrons: O 2 has 2, O 2 + has 1, O 2 − has 1, and O 2 2− has 0. Hence 3 are paramagnetic.",
+          "subject": "chemistry",
+          "chapterId": 1,
+          "chapterName": "Chemical Bonding & Molecular Structure",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "Among CO 2 , BF 3 , NH 3 , H 2 O, CCl 4 , XeF 4 and SF 4 , the number of molecules with zero dipole moment is ______.",
+          "numericAnswer": 4,
+          "answerDisplay": "4",
+          "tolerance": 0.5,
+          "exp": "CO 2 (linear), BF 3 (trigonal planar), CCl 4 (tetrahedral) and XeF 4 (square planar) are symmetric, so their dipoles cancel. NH 3 , H 2 O and SF 4 are polar.",
+          "subject": "chemistry",
+          "chapterId": 1,
+          "chapterName": "Chemical Bonding & Molecular Structure",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The total number of lone pairs on the central atoms of XeF 2 , XeF 4 , XeO 3 and ClF 3 is ______.",
+          "numericAnswer": 8,
+          "answerDisplay": "8",
+          "tolerance": 0.5,
+          "exp": "XeF 2 : 3; XeF 4 : 2; XeO 3 : 1; ClF 3 : 2. Total = 8.",
+          "subject": "chemistry",
+          "chapterId": 1,
+          "chapterName": "Chemical Bonding & Molecular Structure",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "multi",
+          "q": "Which of the following statements is/are correct?",
+          "options": [
+            "Bond angle in NH 3 is greater than in PH 3 .",
+            "Bond angle in H 2 O is greater than in H 2 S.",
+            "Bond angle in NF 3 is smaller than in NH 3 .",
+            "Bond angle in PH 3 is greater than in NH 3 ."
+          ],
+          "ans": [
+            "A",
+            "B",
+            "C"
+          ],
+          "exp": "NH 3 107° vs PH 3 93.5°; H 2 O 104.5° vs H 2 S 92°; NF 3 102° vs NH 3 107° (electronegative F pulls bonding pairs away from N, so lone-pair repulsion dominates). (D) is the reverse of (A).",
+          "subject": "chemistry",
+          "chapterId": 1,
+          "chapterName": "Chemical Bonding & Molecular Structure",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "multi",
+          "q": "In which of the following species do all atoms lie in one plane?",
+          "options": [
+            "XeF 4",
+            "ClF 3",
+            "SF 4",
+            "XeOF 4"
+          ],
+          "ans": [
+            "A",
+            "B"
+          ],
+          "exp": "XeF 4 is square planar and ClF 3 is T-shaped, so both are planar. SF 4 is see-saw (non-planar) and XeOF 4 is square pyramidal.",
+          "subject": "chemistry",
+          "chapterId": 1,
+          "chapterName": "Chemical Bonding & Molecular Structure",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The number of π bonds in tetracyanoethylene, (NC) 2 C=C(CN) 2 , is ______.",
+          "numericAnswer": 9,
+          "answerDisplay": "9",
+          "tolerance": 0.5,
+          "exp": "One C=C contributes 1 π bond and each of the four C≡N groups contributes 2: 1 + 8 = 9 π bonds. (σ bonds: 1 + 4 + 4 = 9.)",
+          "subject": "chemistry",
+          "chapterId": 1,
+          "chapterName": "Chemical Bonding & Molecular Structure",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "Among SF 4 , XeF 4 , ClF 3 , BrF 5 , XeO 3 , NH 4 + , SO 3 and PCl 5 , the number of species in which the central atom has at least one lone pair and the species is not planar is ______.",
+          "numericAnswer": 3,
+          "answerDisplay": "3",
+          "tolerance": 0.5,
+          "exp": "SF 4 : 1 lone pair, see-saw (non-planar) ✓. XeF 4 : planar ✗. ClF 3 : T-shaped, planar ✗. BrF 5 : 1 lone pair, square pyramidal ✓. XeO 3 : 1 lone pair, pyramidal ✓. NH 4 + , SO 3 and PCl 5 have no lone pair on the central atom. Count = 3.",
+          "subject": "chemistry",
+          "chapterId": 1,
+          "chapterName": "Chemical Bonding & Molecular Structure",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "Among N 2 + , O 2 + , C 2 and B 2 , the sum of the bond orders of the paramagnetic species is ______.",
+          "numericAnswer": 6,
+          "answerDisplay": "6",
+          "tolerance": 0.5,
+          "exp": "N 2 + : BO = (9 − 4)/2 = 2.5, 1 unpaired electron (paramagnetic). O 2 + : BO = (10 − 5)/2 = 2.5, paramagnetic. C 2 : BO = 2, all paired (π2p 4 ), diamagnetic. B 2 : BO = 1, two unpaired electrons in degenerate π orbitals, paramagnetic. Sum = 2.5 + 2.5 + 1 = 6.",
+          "subject": "chemistry",
+          "chapterId": 1,
+          "chapterName": "Chemical Bonding & Molecular Structure",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "multi",
+          "q": "Which of the following statements is/are correct?",
+          "options": [
+            "In SF 4 , the axial S–F bonds are longer than the equatorial S–F bonds.",
+            "NO 2 + and NO 2 − have the same bond angle.",
+            "I 3 − is linear and the central iodine is sp 3 d hybridised.",
+            "Both PF 5 and BrF 5 have non-zero dipole moments."
+          ],
+          "ans": [
+            "A",
+            "C"
+          ],
+          "exp": "(A) True: axial 164 pm vs equatorial 155 pm (axial positions have more repulsion from the lone pair). (B) False: NO 2 + is linear (180°), NO 2 − is bent (~115°). (C) True: 3 lone pairs + 2 bond pairs, sp 3 d, linear. (D) False: trigonal bipyramidal PF 5 is non-polar; square pyramidal BrF 5 is polar.",
+          "subject": "chemistry",
+          "chapterId": 1,
+          "chapterName": "Chemical Bonding & Molecular Structure",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ionic Equilibrium",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The pH of a 1 × 10 −3 M aqueous solution of Ba(OH) 2 at 25 °C (to one decimal place) is ______. (log 2 = 0.30)",
+          "numericAnswer": 11.3,
+          "answerDisplay": "11.3",
+          "tolerance": 0.05,
+          "exp": "[OH − ] = 2 × 10 −3 M, so pOH = 3 − log 2 = 2.70 and pH = 14 − 2.70 = 11.3.",
+          "subject": "chemistry",
+          "chapterId": 2,
+          "chapterName": "Ionic Equilibrium",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "A buffer contains 0.1 M of a weak acid HA (pK a = 4.7) and 1.0 M of its sodium salt NaA. The pH of the buffer is ______.",
+          "numericAnswer": 5.7,
+          "answerDisplay": "5.7",
+          "tolerance": 0.05,
+          "exp": "pH = pK a + log([A − ]/[HA]) = 4.7 + log 10 = 5.7.",
+          "subject": "chemistry",
+          "chapterId": 2,
+          "chapterName": "Ionic Equilibrium",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The solubility product of Ag 2 CrO 4 is 4 × 10 −12 . Its solubility is x × 10 −4 mol/L. The value of x is ______.",
+          "numericAnswer": 1,
+          "answerDisplay": "1",
+          "tolerance": 0.5,
+          "exp": "K sp = (2s) 2 (s) = 4s 3 = 4 × 10 −12 , so s 3 = 10 −12 and s = 10 −4 M. Hence x = 1.",
+          "subject": "chemistry",
+          "chapterId": 2,
+          "chapterName": "Ionic Equilibrium",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The solubility of AgCl (K sp = 1.8 × 10 −10 ) in 0.1 M NaCl is x × 10 −9 mol/L. The value of x is ______.",
+          "numericAnswer": 1.8,
+          "answerDisplay": "1.8",
+          "tolerance": 0.05,
+          "exp": "[Cl − ] ≈ 0.1 M, so s = K sp /[Cl − ] = 1.8 × 10 −10 /0.1 = 1.8 × 10 −9 M.",
+          "subject": "chemistry",
+          "chapterId": 2,
+          "chapterName": "Ionic Equilibrium",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The pH of a 0.1 M solution of BCl, the chloride salt of a weak base B with K b = 1 × 10 −5 , is ______.",
+          "numericAnswer": 5,
+          "answerDisplay": "5",
+          "tolerance": 0.5,
+          "exp": ". ● MEDIUM Answer: 5 B + hydrolyses with K h = K w /K b = 10 −9 . [H + ] = √(K h C) = √(10 −9 × 0.1) = 10 −5 M, so pH = 5.",
+          "subject": "chemistry",
+          "chapterId": 2,
+          "chapterName": "Ionic Equilibrium",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "multi",
+          "q": "Aqueous solutions of which of the following salts have pH greater than 7 at 25 °C?",
+          "options": [
+            "NaCN",
+            "NH 4 Cl",
+            "CH 3 COONH 4",
+            "K 2 CO 3"
+          ],
+          "ans": [
+            "A",
+            "D"
+          ],
+          "exp": "NaCN and K 2 CO 3 are salts of strong bases with weak acids, so they hydrolyse to give OH − . NH 4 Cl is acidic. CH 3 COONH 4 has K a ≈ K b , so its pH is about 7.",
+          "subject": "chemistry",
+          "chapterId": 2,
+          "chapterName": "Ionic Equilibrium",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "A buffer contains 0.01 mol each of NH 3 and NH 4 Cl. When 0.005 mol of HCl is added, the pH decreases by ______. (pK b of NH 3 = 4.74; log 3 = 0.48; answer to two decimal places.)",
+          "numericAnswer": 0.48,
+          "answerDisplay": "0.48",
+          "tolerance": 0.005,
+          "exp": "Initially pOH = pK b (equal amounts). After adding HCl: NH 3 = 0.005 mol, NH 4 + = 0.015 mol, so pOH = 4.74 + log 3 = 5.22. The pOH rises by 0.48, so the pH falls by 0.48 (from 9.26 to 8.78).",
+          "subject": "chemistry",
+          "chapterId": 2,
+          "chapterName": "Ionic Equilibrium",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "A solution contains 0.01 M Cl − and 0.01 M CrO 4 2− . Solid AgNO 3 is added gradually (no volume change). Given K sp (AgCl) = 1 × 10 −10 and K sp (Ag 2 CrO 4 ) = 4 × 10 −12 , when Ag 2 CrO 4 just begins to precipitate, [Cl − ] = x × 10 −6 M. The value of x is ______.",
+          "numericAnswer": 5,
+          "answerDisplay": "5",
+          "tolerance": 0.5,
+          "exp": "AgCl begins to precipitate at [Ag + ] = 10 −10 /0.01 = 10 −8 M, so it goes first. Ag 2 CrO 4 begins when [Ag + ] 2 = 4 × 10 −12 /0.01 = 4 × 10 −10 , i.e. [Ag + ] = 2 × 10 −5 M. Then [Cl − ] = 10 −10 /(2 × 10 −5 ) = 5 × 10 −6 M, so x = 5.",
+          "subject": "chemistry",
+          "chapterId": 2,
+          "chapterName": "Ionic Equilibrium",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "100 mL of 0.1 M H 2 A (pK a1 = 4, pK a2 = 8) is mixed with 125 mL of 0.1 M NaOH. The pH of the resulting solution (to two decimal places) is ______. (log 3 = 0.48)",
+          "numericAnswer": 7.52,
+          "answerDisplay": "7.52",
+          "tolerance": 0.005,
+          "exp": "H 2 A = 10 mmol; NaOH = 12.5 mmol. The first 10 mmol of OH − converts all H 2 A to HA − ; the remaining 2.5 mmol converts 2.5 mmol of HA − to A 2− . Left: HA − = 7.5 mmol, A 2− = 2.5 mmol. pH = pK a2 + log(2.5/7.5) = 8 − 0.48 = 7.52.",
+          "subject": "chemistry",
+          "chapterId": 2,
+          "chapterName": "Ionic Equilibrium",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "A sparingly soluble salt MX (K sp = 2 × 10 −10 ) is dissolved in a buffer of fixed pH = 5. X − is the conjugate base of a weak acid HX with K a = 1 × 10 −5 . The solubility of MX is x × 10 −5 mol/L. The value of x is ______.",
+          "numericAnswer": 2,
+          "answerDisplay": "2.0",
+          "tolerance": 0.05,
+          "exp": "At pH 5, [H + ] = K a , so [HX] = [X − ]. Total dissolved X = s = [X − ] + [HX] = 2[X − ], and [M + ] = s. K sp = [M + ][X − ] = s(s/2) = s 2 /2, so s = √(2 × 2 × 10 −10 ) = 2 × 10 −5 M. Hence x = 2.0.",
+          "subject": "chemistry",
+          "chapterId": 2,
+          "chapterName": "Ionic Equilibrium",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Electrochemistry",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "A current of 2 A is passed for 4825 s through an aqueous AgNO 3 solution using silver electrodes. The mass of silver deposited at the cathode (in g) is ______. (Ag = 108; F = 96500 C/mol)",
+          "numericAnswer": 10.8,
+          "answerDisplay": "10.8",
+          "tolerance": 0.05,
+          "exp": "Q = 2 × 4825 = 9650 C = 0.1 F. Ag + + e − → Ag, so moles of Ag = 0.1 and mass = 0.1 × 108 = 10.8 g.",
+          "subject": "chemistry",
+          "chapterId": 3,
+          "chapterName": "Electrochemistry",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "For the cell Zn | Zn 2+ || Cu 2+ | Cu, E°(Zn 2+ /Zn) = −0.76 V and E°(Cu 2+ /Cu) = +0.34 V. The magnitude of ΔG° (in kJ/mol, to one decimal place) is ______. (F = 96500 C/mol)",
+          "numericAnswer": 212.3,
+          "answerDisplay": "212.3",
+          "tolerance": 0.05,
+          "exp": "E° cell = 0.34 − (−0.76) = 1.10 V and n = 2. |ΔG°| = 2 × 96500 × 1.10 = 212,300 J = 212.3 kJ/mol.",
+          "subject": "chemistry",
+          "chapterId": 3,
+          "chapterName": "Electrochemistry",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The emf at 298 K of the concentration cell Cu | Cu 2+ (0.01 M) || Cu 2+ (1 M) | Cu is ______ V. (Use 2.303RT/F = 0.059 V; answer to three decimal places.)",
+          "numericAnswer": 0.059,
+          "answerDisplay": "0.059",
+          "tolerance": 0.0005,
+          "exp": "E = (0.059/n) log([Cu 2+ ] cathode /[Cu 2+ ] anode ) = (0.059/2) log(1/0.01) = 0.0295 × 2 = 0.059 V.",
+          "subject": "chemistry",
+          "chapterId": 3,
+          "chapterName": "Electrochemistry",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The emf (in V, to two decimal places) of the cell Zn | Zn 2+ (0.1 M) || Cu 2+ (0.001 M) | Cu at 298 K is ______. (E° cell = 1.10 V; 2.303RT/F = 0.059 V)",
+          "numericAnswer": 1.04,
+          "answerDisplay": "1.04",
+          "tolerance": 0.005,
+          "exp": "E = E° − (0.059/2) log([Zn 2+ ]/[Cu 2+ ]) = 1.10 − 0.0295 × log(0.1/0.001) = 1.10 − 0.0295 × 2 = 1.041 V ≈ 1.04 V.",
+          "subject": "chemistry",
+          "chapterId": 3,
+          "chapterName": "Electrochemistry",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The same quantity of charge is passed through two cells in series, one containing AgNO 3 and the other CuSO 4 . If 5.4 g of Ag is deposited in the first cell, the mass of Cu deposited in the second (in g, to two decimal places) is ______. (Ag = 108, Cu = 63.5)",
+          "numericAnswer": 1.59,
+          "answerDisplay": "1.59",
+          "tolerance": 0.005,
+          "exp": "Moles of Ag = 5.4/108 = 0.05, so charge = 0.05 F. Cu 2+ + 2e − → Cu needs 2 F per mole, so moles of Cu = 0.025 and mass = 0.025 × 63.5 = 1.5875 ≈ 1.59 g.",
+          "subject": "chemistry",
+          "chapterId": 3,
+          "chapterName": "Electrochemistry",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The limiting molar conductivities (S cm^2 mol −1 ) are: CH 3 COONa = 91, HCl = 426, NaCl = 126. A 0.1 M solution of acetic acid has molar conductivity 39.1 S cm^2 mol −1 . Its degree of dissociation is ______. (Answer to two decimal places.)",
+          "numericAnswer": 0.1,
+          "answerDisplay": "0.10",
+          "tolerance": 0.005,
+          "exp": "Λ°(CH 3 COOH) = 91 + 426 − 126 = 391 S cm^2 mol −1 (Kohlrausch's law). α = Λ m /Λ° = 39.1/391 = 0.10.",
+          "subject": "chemistry",
+          "chapterId": 3,
+          "chapterName": "Electrochemistry",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "multi",
+          "q": "Given E°(Fe 3+ /Fe 2+ ) = 0.77 V, E°(I 2 /I − ) = 0.54 V and E°(Br 2 /Br − ) = 1.09 V, which of the following reactions is/are spontaneous under standard conditions?",
+          "options": [
+            "Fe 3+ oxidises I − to I 2",
+            "Fe 3+ oxidises Br − to Br 2",
+            "Br 2 oxidises Fe 2+ to Fe 3+",
+            "I 2 oxidises Fe 2+ to Fe 3+"
+          ],
+          "ans": [
+            "A",
+            "C"
+          ],
+          "exp": "A reaction is spontaneous if the oxidising agent has the higher reduction potential. (A) 0.77 > 0.54 ✓. (B) 0.77 < 1.09 ✗. (C) 1.09 > 0.77 ✓. (D) 0.54 < 0.77 ✗.",
+          "subject": "chemistry",
+          "chapterId": 3,
+          "chapterName": "Electrochemistry",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The cell Pt, H 2 (1 atm) | HA(0.1 M) || H + (1 M) | H 2 (1 atm), Pt has an emf of 0.177 V at 298 K. The pK a of the weak acid HA is ______. (2.303RT/F = 0.059 V)",
+          "numericAnswer": 5,
+          "answerDisplay": "5",
+          "tolerance": 0.5,
+          "exp": "The left electrode potential is −0.059 pH, so E cell = 0 − (−0.059 pH) = 0.059 pH. Then pH = 0.177/0.059 = 3, so [H + ] = 10 −3 M. K a = [H + ] 2 /[HA] = 10 −6 /0.1 = 10 −5 , so pK a = 5.",
+          "subject": "chemistry",
+          "chapterId": 3,
+          "chapterName": "Electrochemistry",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "A current of 2 A is passed for 1930 s through 200 mL of 0.5 M CuSO 4 using inert electrodes. Assuming no change in volume, the pH of the solution after electrolysis (to one decimal place) is ______. (log 2 = 0.30)",
+          "numericAnswer": 0.7,
+          "answerDisplay": "0.7",
+          "tolerance": 0.05,
+          "exp": "Q = 2 × 1930 = 3860 C = 0.04 F. Cathode: Cu 2+ + 2e − → Cu (uses 0.02 mol of the 0.1 mol Cu 2+ , so Cu 2+ is not exhausted). Anode: 2H 2 O → O 2 + 4H + + 4e − , producing 0.04 mol H + . [H + ] = 0.04/0.2 = 0.2 M, so pH = −log 0.2 = 1 − 0.3 = 0.7.",
+          "subject": "chemistry",
+          "chapterId": 3,
+          "chapterName": "Electrochemistry",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "Given E°(Cu 2+ /Cu + ) = 0.16 V and E°(Cu + /Cu) = 0.52 V, the value of log K at 298 K for the disproportionation 2Cu + → Cu 2+ + Cu (to one decimal place) is ______. (2.303RT/F = 0.059 V)",
+          "numericAnswer": 6.1,
+          "answerDisplay": "6.1",
+          "tolerance": 0.05,
+          "exp": "Cu + is reduced (E° = 0.52 V) and Cu + is oxidised to Cu 2+ (reverse of 0.16 V). E° cell = 0.52 − 0.16 = 0.36 V with n = 1. log K = nE°/0.059 = 0.36/0.059 ≈ 6.1. (Consistency check: E°(Cu 2+ /Cu) = (0.16 + 0.52)/2 = 0.34 V.)",
+          "subject": "chemistry",
+          "chapterId": 3,
+          "chapterName": "Electrochemistry",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Coordination Compounds",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The number of moles of AgCl precipitated when excess AgNO 3 is added to one mole of [Co(NH 3 ) 5 Cl]Cl 2 is ______.",
+          "numericAnswer": 2,
+          "answerDisplay": "2",
+          "tolerance": 0.5,
+          "exp": "Only the two ionisable Cl − outside the coordination sphere precipitate. The coordinated Cl − does not.",
+          "subject": "chemistry",
+          "chapterId": 4,
+          "chapterName": "Coordination Compounds",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The spin-only magnetic moment of [Fe(H 2 O) 6 ] 2+ (in BM, to one decimal place) is ______.",
+          "numericAnswer": 4.9,
+          "answerDisplay": "4.9",
+          "tolerance": 0.05,
+          "exp": "Fe 2+ is d 6 . H 2 O is a weak-field ligand, so the configuration is t 2g 4 e g 2 with 4 unpaired electrons. μ = √(n(n + 2)) = √24 = 4.9 BM.",
+          "subject": "chemistry",
+          "chapterId": 4,
+          "chapterName": "Coordination Compounds",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The coordination number of iron in K 3 [Fe(C 2 O 4 ) 3 ] is ______.",
+          "numericAnswer": 6,
+          "answerDisplay": "6",
+          "tolerance": 0.5,
+          "exp": "Oxalate (C 2 O 4 2− ) is bidentate. Three oxalates give 3 × 2 = 6 donor atoms.",
+          "subject": "chemistry",
+          "chapterId": 4,
+          "chapterName": "Coordination Compounds",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The CFSE of a low-spin octahedral d 7 complex (in units of Δ o , magnitude only, ignoring pairing energy) is ______.",
+          "numericAnswer": 1.8,
+          "answerDisplay": "1.8",
+          "tolerance": 0.05,
+          "exp": "Low-spin d 7 : t 2g 6 e g 1 . CFSE = 6(−0.4Δ o ) + 1(+0.6Δ o ) = −1.8Δ o . Magnitude = 1.8.",
+          "subject": "chemistry",
+          "chapterId": 4,
+          "chapterName": "Coordination Compounds",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The total number of stereoisomers (geometrical and optical) of [Co(en) 2 Cl 2 ] + is ______.",
+          "numericAnswer": 3,
+          "answerDisplay": "3",
+          "tolerance": 0.5,
+          "exp": "The trans isomer is achiral (1). The cis isomer is chiral and exists as a pair of enantiomers (2). Total = 3.",
+          "subject": "chemistry",
+          "chapterId": 4,
+          "chapterName": "Coordination Compounds",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "multi",
+          "q": "Which of the following statements is/are correct?",
+          "options": [
+            "[Ni(CN) 4 ] 2− is square planar and diamagnetic.",
+            "[NiCl 4 ] 2− is tetrahedral and paramagnetic.",
+            "Ni(CO) 4 is tetrahedral and diamagnetic.",
+            "[Ni(NH 3 ) 6 ] 2+ is diamagnetic."
+          ],
+          "ans": [
+            "A",
+            "B",
+            "C"
+          ],
+          "exp": "(A) CN − is strong field and forces dsp 2 (Ni 2+ , d 8 , all paired). (B) Cl − is weak field, sp 3 , with 2 unpaired electrons. (C) Ni(0) is d 10 , sp 3 , all paired. (D) Ni 2+ (d 8 ) in an octahedral field always has 2 unpaired electrons, so it is paramagnetic.",
+          "subject": "chemistry",
+          "chapterId": 4,
+          "chapterName": "Coordination Compounds",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The sum of the number of unpaired electrons in [CoF 6 ] 3− , [Co(NH 3 ) 6 ] 3+ , [Fe(CN) 6 ] 3− and [MnCl 4 ] 2− is ______.",
+          "numericAnswer": 10,
+          "answerDisplay": "10",
+          "tolerance": 0.5,
+          "exp": "[CoF 6 ] 3− : Co 3+ d 6 , weak field, 4 unpaired. [Co(NH 3 ) 6 ] 3+ : d 6 , strong field, 0. [Fe(CN) 6 ] 3− : Fe 3+ d 5 , strong field, 1. [MnCl 4 ] 2− : Mn 2+ d 5 , tetrahedral high spin, 5. Total = 4 + 0 + 1 + 5 = 10.",
+          "subject": "chemistry",
+          "chapterId": 4,
+          "chapterName": "Coordination Compounds",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The total number of stereoisomers possible for the complex ion [Co(en)(NH 3 ) 2 Cl 2 ] + is ______.",
+          "numericAnswer": 4,
+          "answerDisplay": "4",
+          "tolerance": 0.5,
+          "exp": "Enumerating the arrangements of the bidentate en (cis positions) and the pairs of NH 3 and Cl − gives 3 geometrical isomers. Exactly one of them lacks a mirror plane and is chiral, so it exists as a pair of enantiomers. Total stereoisomers = 3 + 1 = 4.",
+          "subject": "chemistry",
+          "chapterId": 4,
+          "chapterName": "Coordination Compounds",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The complex [CoCl 4 ] 2− is tetrahedral with Δ t = (4/9)Δ o . The magnitude of its CFSE, in units of Δ o (to two decimal places), is ______.",
+          "numericAnswer": 0.53,
+          "answerDisplay": "0.53",
+          "tolerance": 0.005,
+          "exp": "Co 2+ is d 7 , high spin in a tetrahedral field: e 4 t 2 3 . CFSE = 4(−0.6Δ t ) + 3(+0.4Δ t ) = −1.2Δ t = −1.2 × (4/9)Δ o = −0.533Δ o . Magnitude = 0.53.",
+          "subject": "chemistry",
+          "chapterId": 4,
+          "chapterName": "Coordination Compounds",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "multi",
+          "q": "Which of the following complexes has/have the same spin-only magnetic moment as [Fe(H 2 O) 6 ] 2+ ?",
+          "options": [
+            "[Cr(H 2 O) 6 ] 2+",
+            "[Mn(H 2 O) 6 ] 2+",
+            "[CoF 6 ] 3−",
+            "[Fe(CN) 6 ] 3−"
+          ],
+          "ans": [
+            "A",
+            "C"
+          ],
+          "exp": "[Fe(H 2 O) 6 ] 2+ has 4 unpaired electrons. [Cr(H 2 O) 6 ] 2+ : d 4 high spin, 4 ✓. [Mn(H 2 O) 6 ] 2+ : d 5 , 5 ✗. [CoF 6 ] 3− : d 6 high spin, 4 ✓. [Fe(CN) 6 ] 3− : d 5 low spin, 1 ✗.",
+          "subject": "chemistry",
+          "chapterId": 4,
+          "chapterName": "Coordination Compounds",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Carbonyl Compounds & Reaction Mechanisms",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "Among ethanol, acetone, acetophenone, propanal, 2-propanol, benzaldehyde and butan-2-ol, the number of compounds that give a positive iodoform test is ______.",
+          "numericAnswer": 5,
+          "answerDisplay": "5",
+          "tolerance": 0.5,
+          "exp": "The test needs CH 3 CO– or CH 3 CH(OH)– attached to C or H. Positive: ethanol, acetone, acetophenone, 2-propanol and butan-2-ol. Propanal and benzaldehyde lack this unit. Count = 5.",
+          "subject": "chemistry",
+          "chapterId": 5,
+          "chapterName": "Carbonyl Compounds & Reaction Mechanisms",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "Among HCHO, CH 3 CHO, C 6 H 5 CHO, (CH 3 ) 3 CCHO, CH 3 COCH 3 and CH 3 CH 2 CHO, the number of compounds that undergo the Cannizzaro reaction with concentrated NaOH is ______.",
+          "numericAnswer": 3,
+          "answerDisplay": "3",
+          "tolerance": 0.5,
+          "exp": "Cannizzaro needs an aldehyde with no α-hydrogen: HCHO, C 6 H 5 CHO and (CH 3 ) 3 CCHO. The others have α-hydrogens (and acetone is a ketone).",
+          "subject": "chemistry",
+          "chapterId": 5,
+          "chapterName": "Carbonyl Compounds & Reaction Mechanisms",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "single",
+          "q": "Acetophenone is converted to ethylbenzene by:",
+          "options": [
+            "Zn–Hg / conc. HCl",
+            "NH 2 NH 2 / KOH, ethylene glycol, heat",
+            "NaBH 4",
+            "LiAlH 4"
+          ],
+          "ans": "B",
+          "exp": "Wolff–Kishner reduction (NH 2 NH 2 /KOH) reduces C=O to CH 2 in basic medium. Clemmensen (Zn–Hg/HCl) also does this but in acidic medium. NaBH 4 and LiAlH 4 give the alcohol.",
+          "subject": "chemistry",
+          "chapterId": 5,
+          "chapterName": "Carbonyl Compounds & Reaction Mechanisms",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "A mixture of acetaldehyde and propanal is treated with dilute NaOH. The number of different aldol addition products (ignoring stereoisomers) formed is ______.",
+          "numericAnswer": 4,
+          "answerDisplay": "4",
+          "tolerance": 0.5,
+          "exp": ". ● MEDIUM Answer: 4 Each aldehyde can form an enolate and attack either aldehyde: acetaldehyde + acetaldehyde, propanal + propanal, acetaldehyde-enolate + propanal, propanal-enolate + acetaldehyde. Total = 4.",
+          "subject": "chemistry",
+          "chapterId": 5,
+          "chapterName": "Carbonyl Compounds & Reaction Mechanisms",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "single",
+          "q": "The correct order of reactivity of carbonyl compounds towards nucleophilic addition is:",
+          "options": [
+            "HCHO > CH 3 CHO > CH 3 COCH 3 > C 6 H 5 COCH 3",
+            "C 6 H 5 CHO > CH 3 CHO > HCHO > CH 3 COCH 3",
+            "CH 3 COCH 3 > CH 3 CHO > HCHO > C 6 H 5 CHO",
+            "CH 3 CHO > HCHO > CH 3 COCH 3 > C 6 H 5 COCH 3"
+          ],
+          "ans": "A",
+          "exp": "Reactivity falls as steric hindrance and electron donation to the carbonyl carbon increase. HCHO (no alkyl groups) is most reactive. Aldehydes beat ketones, and aryl ketones (conjugation plus bulk) are least reactive.",
+          "subject": "chemistry",
+          "chapterId": 5,
+          "chapterName": "Carbonyl Compounds & Reaction Mechanisms",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "Benzaldehyde condenses with acetophenone in the presence of dilute NaOH, followed by dehydration, to give a product P. The degree of unsaturation (double bond equivalents) of P is ______.",
+          "numericAnswer": 10,
+          "answerDisplay": "10",
+          "tolerance": 0.5,
+          "exp": "P is chalcone, C 6 H 5 CH=CH–CO–C 6 H 5 , formula C 15 H 12 O. DBE = (2 × 15 + 2 − 12)/2 = 10 (two benzene rings = 8, C=C = 1, C=O = 1).",
+          "subject": "chemistry",
+          "chapterId": 5,
+          "chapterName": "Carbonyl Compounds & Reaction Mechanisms",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "multi",
+          "q": "Which of the following give a positive Tollens' test?",
+          "options": [
+            "HCOOH",
+            "Glucose",
+            "Acetone",
+            "Benzaldehyde"
+          ],
+          "ans": [
+            "A",
+            "B",
+            "D"
+          ],
+          "exp": "Formic acid has an –CHO group and is oxidised easily. Glucose has a free aldehyde group in its open-chain form. Benzaldehyde is an aldehyde. Acetone, a simple ketone, does not reduce Tollens' reagent.",
+          "subject": "chemistry",
+          "chapterId": 5,
+          "chapterName": "Carbonyl Compounds & Reaction Mechanisms",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "Among acetaldehyde, propanal, 2-methylpropanal, acetone, 2-butanone, benzaldehyde, formaldehyde, 2,2-dimethylpropanal and cyclopentanone, the number of compounds that can form an α,β-unsaturated carbonyl compound by self-condensation in dilute NaOH (with heating) is ______.",
+          "numericAnswer": 5,
+          "answerDisplay": "5",
+          "tolerance": 0.5,
+          "exp": "Acetaldehyde, propanal, acetone, 2-butanone and cyclopentanone have α-hydrogens, and their aldol adducts retain an α-hydrogen, so they can dehydrate. 2-Methylpropanal gives an adduct with a quaternary α-carbon (cannot dehydrate). Benzaldehyde, formaldehyde and 2,2-dimethylpropanal have no α-hydrogen. Count = 5.",
+          "subject": "chemistry",
+          "chapterId": 5,
+          "chapterName": "Carbonyl Compounds & Reaction Mechanisms",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "single",
+          "q": "Compound X (C 5 H 10 O) forms an orange precipitate with 2,4-DNP, does not reduce Tollens' reagent, and gives a yellow precipitate with I 2 /NaOH. Wolff–Kishner reduction of X gives a hydrocarbon Y that contains a tertiary hydrogen. X is:",
+          "options": [
+            "Pentan-2-one",
+            "Pentan-3-one",
+            "3-Methylbutan-2-one",
+            "2-Methylbutanal"
+          ],
+          "ans": "C",
+          "exp": "2,4-DNP positive means a carbonyl; Tollens' negative means a ketone (rules out 2-methylbutanal). Iodoform positive needs CH 3 CO–, ruling out pentan-3-one. Between pentan-2-one (Y = pentane, no tertiary H) and 3-methylbutan-2-one (Y = 2-methylbutane, has a tertiary H), X is 3-methylbutan-2-one.",
+          "subject": "chemistry",
+          "chapterId": 5,
+          "chapterName": "Carbonyl Compounds & Reaction Mechanisms",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "Benzene is acylated with CH 3 COCl/AlCl 3 to give A. A reacts with I 2 /NaOH, followed by acidification, to give B (plus CHI 3 ). B is treated with SOCl 2 to give C, C with NH 3 to give D, and D with Br 2 /NaOH to give E. The molar mass of E (in g/mol) is ______. (C = 12, H = 1, N = 14) MATHEMATICS",
+          "numericAnswer": 93,
+          "answerDisplay": "93",
+          "tolerance": 0.5,
+          "exp": "A = acetophenone; B = benzoic acid (haloform reaction); C = benzoyl chloride; D = benzamide; E = aniline from the Hofmann bromamide reaction (loses one carbon). Aniline, C 6 H 5 NH 2 : 72 + 7 + 14 = 93 g/mol. MATHEMATICS – SOLUTIONS",
+          "subject": "chemistry",
+          "chapterId": 5,
+          "chapterName": "Carbonyl Compounds & Reaction Mechanisms",
+          "exam": "advanced"
+        }
+      ]
+    }
+  ],
+  "maths": [
+    {
+      "id": 1,
+      "name": "Complex Numbers",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The value of ((1 + i)/(1 − i)) 2026 is ______.",
+          "numericAnswer": -1,
+          "answerDisplay": "−1",
+          "tolerance": 0.5,
+          "exp": "(1 + i)/(1 − i) = (1 + i) 2 /2 = 2i/2 = i. Then i 2026 = i 4 × 506 + 2 = i 2 = −1.",
+          "subject": "maths",
+          "chapterId": 1,
+          "chapterName": "Complex Numbers",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "single",
+          "q": "The locus of the complex number z satisfying |z − 3| = |z + 3i| is:",
+          "options": [
+            "the line y = x",
+            "the line y = −x",
+            "the imaginary axis",
+            "a circle"
+          ],
+          "ans": "B",
+          "exp": "With z = x + iy: (x − 3) 2 + y 2 = x^2 + (y + 3) 2 . This simplifies to −6x = 6y, i.e. y = −x (the perpendicular bisector of 3 and −3i).",
+          "subject": "maths",
+          "chapterId": 1,
+          "chapterName": "Complex Numbers",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "If ω is a non-real cube root of unity, then (1 + ω − ω^2 ) 3 + (1 − ω + ω^2 ) 3 equals ______.",
+          "numericAnswer": -16,
+          "answerDisplay": "−16",
+          "tolerance": 0.5,
+          "exp": "Using 1 + ω + ω^2 = 0: 1 + ω − ω^2 = −2ω^2 and 1 − ω + ω^2 = −2ω. The sum of cubes = −8ω 6 − 8ω^3 = −8 − 8 = −16.",
+          "subject": "maths",
+          "chapterId": 1,
+          "chapterName": "Complex Numbers",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The maximum value of |z 2 − z + 1| over all complex numbers with |z| = 1 is ______.",
+          "numericAnswer": 3,
+          "answerDisplay": "3",
+          "tolerance": 0.5,
+          "exp": "Let z = e iθ . Then |z 2 − z + 1| = |z − 1 + 1/z| = |2cosθ − 1|, which lies between 0 and 3. The maximum^3 occurs at θ = π, i.e. z = −1.",
+          "subject": "maths",
+          "chapterId": 1,
+          "chapterName": "Complex Numbers",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "Let ω = e 2πi/10 . The value of ∏ k=1 9 (2 − ω k ) is ______.",
+          "numericAnswer": 1023,
+          "answerDisplay": "1023",
+          "tolerance": 0.5,
+          "exp": "The numbers ω k (k = 0, ..., 9) are the roots of x 10 − 1 = 0, so ∏ k=1 9 (x − ω k ) = (x 10 − 1)/(x − 1). At x = 2: (1024 − 1)/1 = 1023.",
+          "subject": "maths",
+          "chapterId": 1,
+          "chapterName": "Complex Numbers",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "single",
+          "q": "If a complex number z satisfies |z − 1| + |z + 1| = 4, the minimum value of |z| is:",
+          "options": [
+            "1",
+            "√3",
+            "2",
+            "√2"
+          ],
+          "ans": "B",
+          "exp": "This is an ellipse with foci at ±1 and 2a = 4, so a = 2, c = 1 and b 2 = 3. The point nearest the origin is an end of the minor axis, so min |z| = b = √3.",
+          "subject": "maths",
+          "chapterId": 1,
+          "chapterName": "Complex Numbers",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "single",
+          "q": "The point 2 + 3i is rotated through 90° anticlockwise about the point 1 + i. Its new position is:",
+          "options": [
+            "−1 + 2i",
+            "3",
+            "2 + i",
+            "−2 + 3i"
+          ],
+          "ans": "A",
+          "exp": "z′ = z 0 + i(z − z 0 ) = (1 + i) + i(1 + 2i) = 1 + i + i − 2 = −1 + 2i.",
+          "subject": "maths",
+          "chapterId": 1,
+          "chapterName": "Complex Numbers",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The number of complex numbers z satisfying z 6 = conj(z) (the complex conjugate of z) is ______.",
+          "numericAnswer": 8,
+          "answerDisplay": "8",
+          "tolerance": 0.5,
+          "exp": ". ● HARD Answer: 8 Taking moduli: r 6 = r, so r = 0 or r = 1. For r = 1, conj(z) = 1/z, so z 7 = 1, which has 7 roots. Together with z = 0, the total is 8.",
+          "subject": "maths",
+          "chapterId": 1,
+          "chapterName": "Complex Numbers",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "single",
+          "q": "If z 1 , z 2 , z 3 lie on |z| = 1 and z 1 + z 2 + z 3 = 0, the area of the triangle with these vertices is:",
+          "options": [
+            "√3/4",
+            "3√3/4",
+            "3/4",
+            "√3"
+          ],
+          "ans": "B",
+          "exp": "The centroid (z 1 + z 2 + z 3 )/3 = 0 coincides with the circumcentre (origin), so the triangle is equilateral and inscribed in a unit circle. Area = (3√3/4)R^2 = 3√3/4.",
+          "subject": "maths",
+          "chapterId": 1,
+          "chapterName": "Complex Numbers",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The value of ∏ k=1 7 sin(kπ/8), to four decimal places, is ______.",
+          "numericAnswer": 0.0625,
+          "answerDisplay": "0.0625",
+          "tolerance": 0.00005,
+          "exp": "With ω = e 2πi/8 , ∏ k=1 7 (1 − ω k ) = 8, and |1 − ω k | = 2 sin(kπ/8). So 2 7 ∏ sin(kπ/8) = 8, giving ∏ = 8/128 = 1/16 = 0.0625.",
+          "subject": "maths",
+          "chapterId": 1,
+          "chapterName": "Complex Numbers",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Application of Derivatives",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The slope of the tangent to y = x^3 − 3x + 2 at x = 2 is ______.",
+          "numericAnswer": 9,
+          "answerDisplay": "9",
+          "tolerance": 0.5,
+          "exp": "dy/dx = 3x^2 − 3 = 12 − 3 = 9 at x = 2.",
+          "subject": "maths",
+          "chapterId": 2,
+          "chapterName": "Application of Derivatives",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "single",
+          "q": "The local maximum value of f(x) = x^3 − 3x is:",
+          "options": [
+            "−2",
+            "0",
+            "2",
+            "4"
+          ],
+          "ans": "C",
+          "exp": "f′(x) = 3x^2 − 3 = 0 gives x = ±1. f′′(x) = 6x is negative at x = −1, so this is the local maximum: f(−1) = −1 + 3 = 2.",
+          "subject": "maths",
+          "chapterId": 2,
+          "chapterName": "Application of Derivatives",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The radius of a circular ripple increases at 3 cm/s. When the radius is 5 cm, the area is increasing at kπ cm^2 /s. The value of k is ______.",
+          "numericAnswer": 30,
+          "answerDisplay": "30",
+          "tolerance": 0.5,
+          "exp": "A = πr 2 , so dA/dt = 2πr dr/dt = 2π(5)(3) = 30π cm^2 /s.",
+          "subject": "maths",
+          "chapterId": 2,
+          "chapterName": "Application of Derivatives",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The maximum area of a rectangle with sides parallel to the axes inscribed in the ellipse x^2 /16 + y 2 /9 = 1 is ______.",
+          "numericAnswer": 24,
+          "answerDisplay": "24",
+          "tolerance": 0.5,
+          "exp": "Take the vertex (4cosθ, 3sinθ). Area = (8cosθ)(6sinθ) = 24 sin2θ, with maximum 24 (general result 2ab).",
+          "subject": "maths",
+          "chapterId": 2,
+          "chapterName": "Application of Derivatives",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "single",
+          "q": "The Lagrange mean value theorem is applied to f(x) = x^3 − 3x on [0, 2]. The value of c is:",
+          "options": [
+            "2/√3",
+            "1",
+            "4/3",
+            "√3"
+          ],
+          "ans": "A",
+          "exp": "f(2) = 2 and f(0) = 0, so the mean slope is (2 − 0)/2 = 1. Then 3c 2 − 3 = 1 gives c = 2/√3 ≈ 1.155, which lies in (0, 2).",
+          "subject": "maths",
+          "chapterId": 2,
+          "chapterName": "Application of Derivatives",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The number of integer values of k for which the equation x^3 − 3x + k = 0 has three distinct real roots is ______.",
+          "numericAnswer": 3,
+          "answerDisplay": "3",
+          "tolerance": 0.5,
+          "exp": "g(x) = x^3 − 3x has local maximum^2 at x = −1 and local minimum −2 at x = 1. The line y = −k cuts the curve three times iff −2 < −k < 2, i.e. |k| < 2. Integers: −1, 0, 1, so 3 values.",
+          "subject": "maths",
+          "chapterId": 2,
+          "chapterName": "Application of Derivatives",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The minimum value of f(x) = x^2 + 16/x for x > 0 is ______.",
+          "numericAnswer": 12,
+          "answerDisplay": "12",
+          "tolerance": 0.5,
+          "exp": "f′(x) = 2x − 16/x^2 = 0 gives x^3 = 8, so x = 2. f′′ > 0 there, and f(2) = 4 + 8 = 12.",
+          "subject": "maths",
+          "chapterId": 2,
+          "chapterName": "Application of Derivatives",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The number of real solutions of the equation e x = 3x^2 is ______.",
+          "numericAnswer": 3,
+          "answerDisplay": "3",
+          "tolerance": 0.5,
+          "exp": "Let g(x) = e x − 3x^2 . For x < 0, g′ = e x − 6x > 0 and g runs from −∞ to g(0) = 1, giving exactly one root. For x > 0: g(0) = 1, g(1) = 2.718 − 3 < 0, g(3) = 20.1 − 27 < 0 and g(4) = 54.6 − 48 > 0, so there is one root in (0, 1) and one in (3, 4). Total = 3.",
+          "subject": "maths",
+          "chapterId": 2,
+          "chapterName": "Application of Derivatives",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The minimum length of the intercept made by a tangent to the ellipse x^2 /9 + y 2 /4 = 1 between the coordinate axes is ______.",
+          "numericAnswer": 5,
+          "answerDisplay": "5",
+          "tolerance": 0.5,
+          "exp": "The tangent at (3cosθ, 2sinθ) is xcosθ/3 + ysinθ/2 = 1, with intercepts 3secθ and 2cosecθ. Length 2 = 9sec 2 θ + 4cosec 2 θ = 9 + 4 + 9tan 2 θ + 4cot 2 θ ≥ 13 + 2√36 = 25. Minimum length = 5 (= a + b).",
+          "subject": "maths",
+          "chapterId": 2,
+          "chapterName": "Application of Derivatives",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "Let f(x) = 2x^3 − 9x^2 + 12x + k. The number of integers k in [−10, 10] for which the equation f(x) = 0 has exactly one real root is ______.",
+          "numericAnswer": 19,
+          "answerDisplay": "19",
+          "tolerance": 0.5,
+          "exp": "f′ = 6(x − 1)(x − 2), so the local maximum is f(1) = 5 + k and the local minimum is f(2) = 4 + k. Exactly one real root iff (k + 4)(k + 5) > 0, i.e. k > −4 or k < −5. (At k = −4 or −5 there is a repeated root, giving two distinct real roots.) Integers: −10 to −6 (5 values) and −3 to 10 (14 values). Total = 19.",
+          "subject": "maths",
+          "chapterId": 2,
+          "chapterName": "Application of Derivatives",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Definite Integration",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The value of ∫ 0 2 |x − 1| dx is ______.",
+          "numericAnswer": 1,
+          "answerDisplay": "1",
+          "tolerance": 0.5,
+          "exp": ". ● EASY Answer: 1 Split at x = 1: ∫ 0 1 (1 − x) dx + ∫ 1 2 (x − 1) dx = ½ + ½ = 1.",
+          "subject": "maths",
+          "chapterId": 3,
+          "chapterName": "Definite Integration",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "single",
+          "q": "The value of ∫ 0 π/2 sinx/(sinx + cosx) dx is:",
+          "options": [
+            "0",
+            "π/4",
+            "π/2",
+            "1"
+          ],
+          "ans": "B",
+          "exp": "Let I be the integral. By the property ∫f(x) = ∫f(a − x), I also equals ∫ cosx/(sinx + cosx) dx. Adding: 2I = ∫ 0 π/2 1 dx = π/2, so I = π/4.",
+          "subject": "maths",
+          "chapterId": 3,
+          "chapterName": "Definite Integration",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The value of ∫ 0 2 x√(4 − x^2 ) dx, to two decimal places, is ______.",
+          "numericAnswer": 2.67,
+          "answerDisplay": "2.67",
+          "tolerance": 0.005,
+          "exp": "Put u = 4 − x^2 , du = −2x dx. The integral becomes ½∫ 0 4 √u du = ½ × (2/3) × 4 3/2 = 8/3 ≈ 2.67.",
+          "subject": "maths",
+          "chapterId": 3,
+          "chapterName": "Definite Integration",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The value of ∫ 0 π x/(1 + sinx) dx (to two decimal places) is ______.",
+          "numericAnswer": 3.14,
+          "answerDisplay": "3.14",
+          "tolerance": 0.005,
+          "exp": "Using ∫ 0 π x f(sinx) dx = (π/2)∫ 0 π f(sinx) dx: I = (π/2)∫ 0 π dx/(1 + sinx). Now ∫ dx/(1 + sinx) = tanx − secx, which evaluates to 1 − (−1) = 2 between 0 and π. So I = π ≈ 3.14.",
+          "subject": "maths",
+          "chapterId": 3,
+          "chapterName": "Definite Integration",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "single",
+          "q": "The value of ∫ 0 π/2 sin 6 x dx is:",
+          "options": [
+            "5π/32",
+            "3π/16",
+            "π/4",
+            "15π/96"
+          ],
+          "ans": "A",
+          "exp": "By Wallis' formula: ∫ 0 π/2 sin 6 x dx = (5·3·1)/(6·4·2) × π/2 = (5/16)(π/2) = 5π/32.",
+          "subject": "maths",
+          "chapterId": 3,
+          "chapterName": "Definite Integration",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "The area enclosed between the curves y = x^2 and y = √x (to two decimal places) is ______.",
+          "numericAnswer": 0.33,
+          "answerDisplay": "0.33",
+          "tolerance": 0.005,
+          "exp": "The curves meet at x = 0 and 1, with √x above. Area = ∫ 0 1 (√x − x^2 ) dx = 2/3 − 1/3 = 1/3 ≈ 0.33.",
+          "subject": "maths",
+          "chapterId": 3,
+          "chapterName": "Definite Integration",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "lim x→0⁺ (1/x^3 ) ∫ 0 x^{2 } sin√t dt (to two decimal places) equals ______.",
+          "numericAnswer": 0.67,
+          "answerDisplay": "0.67",
+          "tolerance": 0.005,
+          "exp": "The limit is of the form 0/0. By L'Hôpital's rule with Leibniz's rule: numerator derivative = sin(√(x^2 )) × 2x = 2x sinx (for x > 0); denominator derivative = 3x^2 . Limit = lim 2x sinx/(3x^2 ) = 2/3 ≈ 0.67.",
+          "subject": "maths",
+          "chapterId": 3,
+          "chapterName": "Definite Integration",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The value of ∫ 0 π/4 ln(1 + tanx) dx (to three decimal places) is ______. (ln 2 = 0.693)",
+          "numericAnswer": 0.272,
+          "answerDisplay": "0.272",
+          "tolerance": 0.0005,
+          "exp": "Let I be the integral. Replacing x by π/4 − x gives ln(1 + (1 − tanx)/(1 + tanx)) = ln 2 − ln(1 + tanx). Adding the two forms: 2I = ∫ 0 π/4 ln 2 dx = (π/4) ln 2, so I = (π/8) ln 2 ≈ 0.272.",
+          "subject": "maths",
+          "chapterId": 3,
+          "chapterName": "Definite Integration",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The value of lim n→∞ (1/n)[(n + 1)(n + 2)...(2n)] 1/n (to two decimal places) is ______. (e = 2.718)",
+          "numericAnswer": 1.47,
+          "answerDisplay": "1.47",
+          "tolerance": 0.005,
+          "exp": "Let the limit be L. ln L = lim (1/n) Σ k=1 n ln(1 + k/n) = ∫ 0 1 ln(1 + x) dx = [(1 + x)ln(1 + x) − x] 0 1 = 2 ln 2 − 1. So L = 4/e ≈ 1.47.",
+          "subject": "maths",
+          "chapterId": 3,
+          "chapterName": "Definite Integration",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "Let F(x) = ∫ 0 x (t − 1)(t − 2)(t − 3) dt for x ≥ 0. The minimum value of F(x) (to two decimal places) is ______.",
+          "numericAnswer": -2.25,
+          "answerDisplay": "−2.25",
+          "tolerance": 0.005,
+          "exp": "F′(x) = (x − 1)(x − 2)(x − 3) changes sign from − to + at x = 1 and at x = 3 (local minima), and from + to − at x = 2 (local maximum). F(x) = x^4 /4 − 2x^3 + 11x^2 /2 − 6x. Then F(1) = 1/4 − 2 + 11/2 − 6 = −9/4, and F(3) = 81/4 − 54 + 99/2 − 18 = −9/4. Since F → +∞ as x → ∞ and F(0) = 0, the minimum is −9/4 = −2.25.",
+          "subject": "maths",
+          "chapterId": 3,
+          "chapterName": "Definite Integration",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Conic Sections",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The length of the latus rectum of the parabola y 2 = 20x is ______.",
+          "numericAnswer": 20,
+          "answerDisplay": "20",
+          "tolerance": 0.5,
+          "exp": "For y 2 = 4ax, the latus rectum is 4a. Here 4a = 20.",
+          "subject": "maths",
+          "chapterId": 4,
+          "chapterName": "Conic Sections",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "single",
+          "q": "The eccentricity of the ellipse x^2 /25 + y 2 /16 = 1 is:",
+          "options": [
+            "4/5",
+            "3/5",
+            "3/4",
+            "5/3"
+          ],
+          "ans": "B",
+          "exp": "e = √(1 − b 2 /a 2 ) = √(1 − 16/25) = 3/5.",
+          "subject": "maths",
+          "chapterId": 4,
+          "chapterName": "Conic Sections",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "The distance between the foci of the hyperbola x^2 /9 − y 2 /16 = 1 is ______.",
+          "numericAnswer": 10,
+          "answerDisplay": "10",
+          "tolerance": 0.5,
+          "exp": "c 2 = a 2 + b 2 = 25, so c = 5 and the foci are (±5, 0). Distance = 2c = 10.",
+          "subject": "maths",
+          "chapterId": 4,
+          "chapterName": "Conic Sections",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "A focal chord of the parabola y 2 = 8x makes an angle of 30° with the axis of the parabola. The length of the chord is ______.",
+          "numericAnswer": 32,
+          "answerDisplay": "32",
+          "tolerance": 0.5,
+          "exp": "For y 2 = 4ax, a focal chord inclined at θ to the axis has length 4a cosec 2 θ. Here a = 2: length = 8 × 4 = 32.",
+          "subject": "maths",
+          "chapterId": 4,
+          "chapterName": "Conic Sections",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "For any point P on the ellipse x^2 /25 + y 2 /9 = 1 with foci F 1 and F 2 , the perimeter of triangle PF 1 F 2 is ______.",
+          "numericAnswer": 18,
+          "answerDisplay": "18",
+          "tolerance": 0.5,
+          "exp": "a = 5, b = 3, so c = 4. PF 1 + PF 2 = 2a = 10 and F 1 F 2 = 2c = 8. Perimeter = 18.",
+          "subject": "maths",
+          "chapterId": 4,
+          "chapterName": "Conic Sections",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "single",
+          "q": "If the eccentricity of the conjugate of a hyperbola is 5/4, the eccentricity of the hyperbola is:",
+          "options": [
+            "5/3",
+            "4/3",
+            "3/2",
+            "5/4"
+          ],
+          "ans": "A",
+          "exp": "For a hyperbola and its conjugate, 1/e 2 + 1/e′ 2 = 1. So 1/e 2 = 1 − 16/25 = 9/25, giving e = 5/3.",
+          "subject": "maths",
+          "chapterId": 4,
+          "chapterName": "Conic Sections",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "Tangents are drawn from the point (−2, 3) to the parabola y 2 = 8x. The length of the chord of contact is ______.",
+          "numericAnswer": 12.5,
+          "answerDisplay": "12.5",
+          "tolerance": 0.05,
+          "exp": "The chord of contact is T = 0: 3y = 4(x − 2), i.e. x = (3y + 8)/4. Substituting in y 2 = 8x: y 2 − 6y − 16 = 0, so y = 8 or −2, giving points (8, 8) and (0.5, −2). Length = √(7.5 2 + 10 2 ) = √156.25 = 12.5.",
+          "subject": "maths",
+          "chapterId": 4,
+          "chapterName": "Conic Sections",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "single",
+          "q": "The equation of the common tangent to the parabolas y 2 = 4x and x^2 = 4y is:",
+          "options": [
+            "x + y + 1 = 0",
+            "x − y + 1 = 0",
+            "x + y − 1 = 0",
+            "x − y − 1 = 0"
+          ],
+          "ans": "A",
+          "exp": "A tangent to y 2 = 4x is y = mx + 1/m. A tangent to x^2 = 4y with slope m is y = mx − m^2 . Equating intercepts: 1/m = −m^2 , so m^3 = −1 and m = −1. The line is y = −x − 1, i.e. x + y + 1 = 0.",
+          "subject": "maths",
+          "chapterId": 4,
+          "chapterName": "Conic Sections",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The tangent at any point of the hyperbola x^2 /9 − y 2 /16 = 1 forms a triangle with the two asymptotes. The area of this triangle is ______.",
+          "numericAnswer": 12,
+          "answerDisplay": "12",
+          "tolerance": 0.5,
+          "exp": "The tangent at (asecθ, btanθ) meets the asymptotes at (a(secθ + tanθ), b(secθ + tanθ)) and (a(secθ − tanθ), −b(secθ − tanθ)). The area with the origin is ½|x 1 y 2 − x^2 y 1 | = ab(sec 2 θ − tan 2 θ) = ab. Here ab = 3 × 4 = 12, independent of the point.",
+          "subject": "maths",
+          "chapterId": 4,
+          "chapterName": "Conic Sections",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "numeric",
+          "q": "The ellipse x^2 /16 + y 2 /7 = 1 and a hyperbola with the same foci and eccentricity 3/2 intersect at four points. The area of the quadrilateral formed by these points (to two decimal places) is ______.",
+          "numericAnswer": 21.03,
+          "answerDisplay": "21.03",
+          "tolerance": 0.005,
+          "exp": "The ellipse has c 2 = 16 − 7 = 9, so the foci are (±3, 0). For the hyperbola, c = 3 and e = 3/2 give a = 2 and b 2 = 5: x^2 /4 − y 2 /5 = 1. Solving with X = x^2 , Y = y 2 : 7X + 16Y = 112 and 5X − 4Y = 20, so X = 64/9 and Y = 35/9. The points are (±8/3, ±√35/3), forming a rectangle of sides 16/3 and 2√35/3. Area = 32√35/9 ≈ 21.03.",
+          "subject": "maths",
+          "chapterId": 4,
+          "chapterName": "Conic Sections",
+          "exam": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Probability",
+      "questions": [
+        {
+          "num": 1,
+          "diff": "Easy",
+          "type": "single",
+          "q": "Two fair dice are thrown. The probability that the sum of the numbers is a prime number is:",
+          "options": [
+            "1/3",
+            "5/12",
+            "7/18",
+            "1/2"
+          ],
+          "ans": "B",
+          "exp": "Prime sums: 2 (1 way), 3 (2), 5 (4), 7 (6), 11 (2) = 15 favourable outcomes out of 36. P = 15/36 = 5/12.",
+          "subject": "maths",
+          "chapterId": 5,
+          "chapterName": "Probability",
+          "exam": "advanced"
+        },
+        {
+          "num": 2,
+          "diff": "Easy",
+          "type": "numeric",
+          "q": "If P",
+          "numericAnswer": 0.4,
+          "answerDisplay": "0.40",
+          "tolerance": 0.005,
+          "exp": "P(A | B) = P(A ∩ B)/P(B) = 0.2/0.5 = 0.40.",
+          "subject": "maths",
+          "chapterId": 5,
+          "chapterName": "Probability",
+          "exam": "advanced"
+        },
+        {
+          "num": 3,
+          "diff": "Easy",
+          "type": "single",
+          "q": "A fair coin is tossed 4 times. The probability of getting exactly 2 heads is:",
+          "options": [
+            "1/4",
+            "3/8",
+            "1/2",
+            "5/16"
+          ],
+          "ans": "B",
+          "exp": "P = C(4, 2)/2 4 = 6/16 = 3/8.",
+          "subject": "maths",
+          "chapterId": 5,
+          "chapterName": "Probability",
+          "exam": "advanced"
+        },
+        {
+          "num": 4,
+          "diff": "Medium",
+          "type": "single",
+          "q": "Box A contains 2 white and 3 black balls. Box B contains 4 white and 1 black ball. A box is chosen at random and a ball is drawn from it. If the ball is white, the probability that it came from Box A is:",
+          "options": [
+            "1/3",
+            "1/2",
+            "2/5",
+            "3/5"
+          ],
+          "ans": "A",
+          "exp": "By Bayes' theorem: P(A | white) = (½ · 2/5)/(½ · 2/5 + ½ · 4/5) = (1/5)/(3/5) = 1/3.",
+          "subject": "maths",
+          "chapterId": 5,
+          "chapterName": "Probability",
+          "exam": "advanced"
+        },
+        {
+          "num": 5,
+          "diff": "Medium",
+          "type": "single",
+          "q": "Five letters are placed at random in 5 addressed envelopes, one in each. The probability that no letter is in its correct envelope is:",
+          "options": [
+            "3/8",
+            "11/30",
+            "1/3",
+            "4/15"
+          ],
+          "ans": "B",
+          "exp": "The number of derangements of 5 objects is 5!(1 − 1 + 1/2! − 1/3! + 1/4! − 1/5!) = 44. P = 44/120 = 11/30.",
+          "subject": "maths",
+          "chapterId": 5,
+          "chapterName": "Probability",
+          "exam": "advanced"
+        },
+        {
+          "num": 6,
+          "diff": "Medium",
+          "type": "single",
+          "q": "A fair die is thrown repeatedly until a six appears. The probability that the first six occurs on an even-numbered throw is:",
+          "options": [
+            "1/2",
+            "5/11",
+            "6/11",
+            "5/12"
+          ],
+          "ans": "B",
+          "exp": "P = Σ (5/6) 2k−1 (1/6) for k ≥ 1 = (5/36)/(1 − 25/36) = (5/36)/(11/36) = 5/11.",
+          "subject": "maths",
+          "chapterId": 5,
+          "chapterName": "Probability",
+          "exam": "advanced"
+        },
+        {
+          "num": 7,
+          "diff": "Medium",
+          "type": "numeric",
+          "q": "Three persons A, B and C fire at a target independently with probabilities of hitting 1/2, 1/3 and 1/4 respectively. The probability that exactly two of them hit the target is ______.",
+          "numericAnswer": 0.25,
+          "answerDisplay": "0.25",
+          "tolerance": 0.005,
+          "exp": "P = (1/2)(1/3)(3/4) + (1/2)(2/3)(1/4) + (1/2)(1/3)(1/4) = 3/24 + 2/24 + 1/24 = 6/24 = 1/4.",
+          "subject": "maths",
+          "chapterId": 5,
+          "chapterName": "Probability",
+          "exam": "advanced"
+        },
+        {
+          "num": 8,
+          "diff": "Hard",
+          "type": "single",
+          "q": "A fair coin is tossed 10 times. The probability that no two consecutive tosses are both heads is:",
+          "options": [
+            "9/64",
+            "1/8",
+            "5/32",
+            "55/256"
+          ],
+          "ans": "A",
+          "exp": "Let a n be the number of length-n sequences with no two consecutive heads. Then a n = a n−1 + a n−2 with a 1 = 2 and a 2 = 3, giving 2, 3, 5, 8, 13, 21, 34, 55, 89, 144. So a 10 = 144 and P = 144/1024 = 9/64.",
+          "subject": "maths",
+          "chapterId": 5,
+          "chapterName": "Probability",
+          "exam": "advanced"
+        },
+        {
+          "num": 9,
+          "diff": "Hard",
+          "type": "single",
+          "q": "A family has two children. Given that at least one of them is a boy born on a Tuesday, the probability that both children are boys is:",
+          "options": [
+            "1/3",
+            "13/27",
+            "1/2",
+            "14/27"
+          ],
+          "ans": "B",
+          "exp": "Each child is one of 14 equally likely types (sex × day). Outcomes with at least one 'boy-Tuesday': 14 + 14 − 1 = 27. Among these, both are boys when the other child is any boy (7 days) in either order, minus the double count: 7 + 7 − 1 = 13. P = 13/27.",
+          "subject": "maths",
+          "chapterId": 5,
+          "chapterName": "Probability",
+          "exam": "advanced"
+        },
+        {
+          "num": 10,
+          "diff": "Hard",
+          "type": "single",
+          "q": "A and B alternately throw a pair of fair dice, A starting first. A wins if he throws a sum of 6, and B wins if he throws a sum of 7. The probability that A wins is:",
+          "options": [
+            "5/11",
+            "6/11",
+            "30/61",
+            "31/61"
+          ],
+          "ans": "C",
+          "exp": "p = P(sum 6) = 5/36, q = P(sum 7) = 6/36. P(A wins) = p + (1 − p)(1 − q)p + ... = p/(1 − (1 − p)(1 − q)) = (5/36)/(1 − (31/36)(30/36)) = (5/36)/(366/1296) = 180/366 = 30/61.",
+          "subject": "maths",
+          "chapterId": 5,
+          "chapterName": "Probability",
+          "exam": "advanced"
+        }
+      ]
+    }
+  ]
+}
