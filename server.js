@@ -49,7 +49,7 @@ function sendJson(res, status, data) {
 }
 
 function cleanUser(payload) {
-  const username = String(payload.username || '').trim();
+  const username = String(payload.username || payload.name || '').trim();
   const exam = String(payload.exam || '').trim();
   const qpd = Math.round(Number(payload.qpd));
   const date = String(payload.date || '');

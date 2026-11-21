@@ -451,6 +451,24 @@ const quizClientJS = `
         date: validDateKey(profile && profile.date) ? profile.date : defaultExamDates[exam]
       };
       initializeUser(dashboardProfile);
+      fetch('/api/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          username: dashboardProfile.username,
+          exam: dashboardProfile.exam,
+          qpd: dashboardProfile.qpd,
+          date: dashboardProfile.date
+        })
+      }).then(function (response) {
+        if (!response.ok) {
+          return response.json().then(function (data) {
+            throw new Error(data.error || 'Could not save your profile.');
+          });
+        }
+      }).catch(function (error) {
+        console.error('Unable to save profile:', error);
+      });
       renderDashboardTrackers();
       renderExamDate();
       renderProfile();
